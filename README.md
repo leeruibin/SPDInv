@@ -1,4 +1,4 @@
-# SPDInv
+## SPDInv
 SPDInv: Source Prompt Disentangled Inversion for Boosting Image Editability with  Diffusion Models
 
 <a href='xxx'><img src='https://img.shields.io/badge/arXiv-xxx-b31b1b.svg'></a> &nbsp;&nbsp;
@@ -9,27 +9,30 @@ SPDInv: Source Prompt Disentangled Inversion for Boosting Image Editability with
 
 :star: If SeeSR is helpful to your images or projects, please help star this repo. Thanks! :hugs:
 
-# 🔎 Overview framework
+## 🔎 Overview framework
 
 Pipelines of different inversion methods in text-driven editing. (a) DDIM inversion inverts a real image to a latent noise code, but the inverted noise code often results in large gap of reconstruction $D_{Rec}$ with higher CFG parameters. (b) NTI optimizes the null-text embedding to narrow the gap of reconstruction $D_{Rec}$, while NPI further optimizes the speed of NTI. (c) DirectInv records the differences between the inversion feature and the reconstruction feature, and merges them back to achieve high-quality reconstruction. (d) Our SPDInv aims to minimize the gap of noise $D_{Noi}$, instead of $D_{Rec}$, which can reduce the impact of source prompt on the editing process and thus reduce the artifacts and inconsistent details encountered by the previous methods.
 
 ![SPDInv](figures/methods.png)
 
-# ⚙️ Dependencies and Installation
+## ⚙️ Dependencies and Installation
 TODO
 
-# 🚀 Quick Inference
+## 🚀 Quick Inference
 TODO
 
-# 📷 Editing cases with P2P, MasaCtrl, PNP, ELITE
+## 📷 Editing cases with P2P, MasaCtrl, PNP, ELITE
 ## Editing cases with P2P
-![P2P](figures/cases_P2P.jpg)
+<div  align="center"> <img src="./figures/cases_P2P.jpg" width = "600" alt="P2P" align=center /> </div>
+
 ## Editing cases with MasaCtrl
-![MasaCtrl](figures/cases_MasaCtrl.jpg)
+<div  align="center"> <img src="./figures/cases_MasaCtrl.jpg" width = "600" alt="MasaCtrl" align=center /> </div>
+
 ## Editing cases with PNP
-![PNP](figures/cases_PNP.jpg)
+<div  align="center"> <img src="./figures/cases_PNP.jpg" width = "600" alt="PNP" align=center /> </div>
+
 ## Editing cases with ELITE
-![ELITE](figures/cases_ELITE.jpg)
+<div  align="center"> <img src="./figures/cases_ELITE.jpg" width = "600" alt="ELITE" align=center /> </div>
 
 # TODO
 
