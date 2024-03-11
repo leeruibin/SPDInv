@@ -10,4 +10,5 @@ SPDInv: Source Prompt Disentangled Inversion for Boosting Image Editability with
 :star: If SeeSR is helpful to your images or projects, please help star this repo. Thanks! :hugs:
 
 ## 🔎 Overview framework
-![SPDInv](figs/framework.png)
+![SPDInv](figures/methods)
+
