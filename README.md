@@ -14,10 +14,39 @@ Pipelines of different inversion methods in text-driven editing. (a) DDIM invers
 ![SPDInv](figures/methods.png)
 
 ## ⚙️ Dependencies and Installation
-TODO
+```
+## git clone this repository
+git clone https://github.com/leeruibin/SPDInv.git
+cd SPDInv
+
+# create an environment with python >= 3.8
+conda env create -f environment.yaml
+conda activate SPDInv
+```
 
 ## 🚀 Quick Inference
-TODO
+
+#### Run P2P with SPDInv
+
+```
+python run_SPDInv_P2P.py --input xxx --source [source prompt] --target [target prompt] --blended_word "word1 word2"
+```
+
+#### Run MasaCtrl with SPDInv
+```
+python run_SPDInv_MasaCtrl.py --input xxx --source [source prompt] --target [target prompt]
+```
+
+#### Run PNP with SPDInv
+```
+python run_SPDInv_PNP.py --input xxx --source [source prompt] --target [target prompt]
+```
+
+#### Run ELITE with SPDInv
+For ELITE, you should first download the pre-trained [global_mapper.pt](https://drive.google.com/drive/folders/1VkiVZzA_i9gbfuzvHaLH2VYh7kOTzE0x?usp=sharing) checkpoint provided by the ELITE, put it into the checkpoints folder.
+```
+python run_SPDInv_ELITE.py --input xxx --source [source prompt] --target [target prompt]
+```
 
 ## 📷 Editing cases with P2P, MasaCtrl, PNP, ELITE
 ## Editing cases with P2P
@@ -32,7 +61,18 @@ TODO
 ## Editing cases with ELITE
 <div  align="center"> <img src="./figures/cases_ELITE.jpg" width = "600" alt="ELITE" align=center /> </div>
 
-# TODO
+
+## Citation
+
+```
+TODO
+```
+
+## Acknowledgements
+
+This code is built on [diffusers](https://github.com/huggingface/diffusers/) version of [Stable Diffusion](https://github.com/CompVis/stable-diffusion).
+
+Meanwhile, the code is heavily based on the [Prompt-to-Prompt](https://github.com/google/prompt-to-prompt), [Null-Text Inversion](https://github.com/google/prompt-to-prompt), [MasaCtrl](https://github.com/TencentARC/MasaCtrl), [ProxEdit](https://github.com/phymhan/prompt-to-prompt), [ELITE](https://github.com/csyxwei/ELITE), [Plug-and-Play](https://github.com/MichalGeyer/plug-and-play), [DirectInversion](https://github.com/cure-lab/PnPInversion), thanks to all the contributors!.
 
 
 
