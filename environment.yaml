@@ -1,0 +1,22 @@
+name: SPDInv
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - numpy=1.26.3
+  - python=3.9
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - pip:
+      - accelerate==0.20.3
+      - diffusers==0.17.1
+      - einops==0.7.0
+      - matplotlib==3.8.3
+      - pillow==9.5.0
+      - torch==2.0.1
+      - salesforce-lavis
+      - tqdm==4.66.2
+      - transformers==4.30.2
+      - triton==2.0.0
+      - xformers==0.0.20
+      - opencv-python==4.8.1.78
