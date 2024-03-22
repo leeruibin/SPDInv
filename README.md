@@ -1,7 +1,6 @@
-## SPDInv
-SPDInv: Source Prompt Disentangled Inversion for Boosting Image Editability with  Diffusion Models
+## Source Prompt Disentangled Inversion for Boosting Image Editability with  Diffusion Models
 
-<a href='xxx'><img src='https://img.shields.io/badge/arXiv-xxx-b31b1b.svg'></a> &nbsp;&nbsp;
+<a href='http://arxiv.org/abs/2403.11105'><img src='https://img.shields.io/badge/arXiv-2403.11105-b31b1b.svg'></a> &nbsp;&nbsp;
 
 [Ruibin Li](https://github.com/leeruibin)<sup>1</sup> | [Ruihuang Li](https://scholar.google.com/citations?user=8CfyOtQAAAAJ&hl=zh-CN)<sup>1</sup> |[Song Guo](https://scholar.google.com/citations?user=Ib-sizwAAAAJ&hl=en)<sup>2</sup> | [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)<sup>1*</sup>
 
@@ -65,7 +64,12 @@ python run_SPDInv_ELITE.py --input xxx --source [source prompt] --target [target
 ## Citation
 
 ```
-TODO
+@article{li2024source,
+  title={Source Prompt Disentangled Inversion for Boosting Image Editability with Diffusion Models},
+  author={Li, Ruibin and Li, Ruihuang and Guo, Song and Zhang, Lei},
+  journal={arXiv preprint arXiv:2403.11105},
+  year={2024}
+}
 ```
 
 ## Acknowledgements
