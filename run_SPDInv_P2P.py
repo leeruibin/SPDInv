@@ -105,7 +105,7 @@ def P2P_inversion_and_edit(
 
     SPD_inversion = SourcePromptDisentanglementInversion(ldm_stable, K_round=K_round, num_ddim_steps=num_of_ddim_steps,
                                                          learning_rate=learning_rate, delta_threshold=delta_threshold,
-                                                         enable_threhold=enable_threshold)
+                                                         enable_threshold=enable_threshold)
     (image_gt, image_enc, image_enc_latent), x_stars, uncond_embeddings = SPD_inversion.invert(
         image_path, prompt_src, offsets=offsets, npi_interp=npi_interp, verbose=True)
 
@@ -223,7 +223,7 @@ if __name__ == "__main__":
     params['K_round'] = args.K_round
     params['num_of_ddim_steps'] = args.num_of_ddim_steps
     params['learning_rate'] = args.learning_rate
-    params['enable_threhold'] = args.enable_threshold
+    params['enable_threshold'] = args.enable_threshold
     params['delta_threshold'] = args.delta_threshold
 
     params['prompt_src'] = args.source
