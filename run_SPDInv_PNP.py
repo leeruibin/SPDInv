@@ -192,6 +192,6 @@ if __name__ == "__main__":
         guidance_scale=7.5,
     )
     filename = image_path.split('/')[-1]
-    edited_image.save(f"{output_dir}/{sample_count}_P2P_{filename}")
+    edited_image.save(f"{output_dir}/{sample_count}_PNP_{filename}".replace(".jpg",".png"))
 
 

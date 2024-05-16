@@ -638,7 +638,7 @@ def ELITE_inversion_and_edit(
                                         guidance_scale=guidance_scale,
                                         uncond_embeddings=uncond_embeddings, **inference_kwargs)
     filename = image_path.split('/')[-1]
-    save_path = f"{output_dir}/{sample_count}_P2P_{filename}"
+    save_path = f"{output_dir}/{sample_count}_ELITE_{filename}".replace(".jpg",".png")
 
     Image.fromarray(np.concatenate(images, axis=1)).save(save_path)
     del ldm_stable, SPD_inversion

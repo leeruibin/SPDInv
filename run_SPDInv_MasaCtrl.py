@@ -83,7 +83,7 @@ def MasaCtrl_inversion_and_edit(
                            )
 
     filename = source_image_path.split('/')[-1]
-    save_path = f"{out_dir}/{sample_count}_MasaCtrl_{filename}"
+    save_path = f"{out_dir}/{sample_count}_MasaCtrl_{filename}".replace(".jpg",".png")
     out_image = torch.cat([source_image * 0.5 + 0.5, image_masactrl], dim=0)
     save_image(out_image, save_path)
 

@@ -132,7 +132,7 @@ def P2P_inversion_and_edit(
                             uncond_embeddings=uncond_embeddings,
                             inversion_guidance=use_inversion_guidance, x_stars=x_stars, )
 
-    filename = image_path.split('/')[-1]
+    filename = image_path.split('/')[-1].replace(".jpg",".png")
     Image.fromarray(np.concatenate(images, axis=1)).save(f"{output_dir}/{sample_count}_P2P_{filename}")
 
 
