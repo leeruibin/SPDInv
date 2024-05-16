@@ -9,7 +9,7 @@ dependencies:
   - torchvision=0.13.1
   - pip:
       - accelerate==0.20.3
-      - diffusers==0.17.1
+      - diffusers==0.10.0
       - einops==0.7.0
       - matplotlib==3.8.3
       - pillow==9.5.0
