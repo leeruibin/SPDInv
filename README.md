@@ -37,6 +37,12 @@ python run_SPDInv_MasaCtrl.py --input xxx --source [source prompt] --target [tar
 ```
 
 #### Run PNP with SPDInv
+To run PNP, you should first upgrade diffusers to 0.17.1 by
+
+```
+pip install diffusers==0.17.1
+```
+then, you can run
 ```
 python run_SPDInv_PNP.py --input xxx --source [source prompt] --target [target prompt]
 ```
