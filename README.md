@@ -2,9 +2,9 @@
 
 <a href='http://arxiv.org/abs/2403.11105'><img src='https://img.shields.io/badge/arXiv-2403.11105-b31b1b.svg'></a> &nbsp;&nbsp;
 
-[Ruibin Li](https://github.com/leeruibin)<sup>1</sup> | [Ruihuang Li](https://scholar.google.com/citations?user=8CfyOtQAAAAJ&hl=zh-CN)<sup>1</sup> |[Song Guo](https://scholar.google.com/citations?user=Ib-sizwAAAAJ&hl=en)<sup>2</sup> | [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)<sup>1*</sup>
-
-<sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>The Hong Kong University of Science and Technology.
+>[Ruibin Li](https://github.com/leeruibin)<sup>1</sup> | [Ruihuang Li](https://scholar.google.com/citations?user=8CfyOtQAAAAJ&hl=zh-CN)<sup>1</sup> |[Song Guo](https://scholar.google.com/citations?user=Ib-sizwAAAAJ&hl=en)<sup>2</sup> | [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)<sup>1*</sup> <br>
+><sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>The Hong Kong University of Science and Technology. <br>
+>In ECCV2024
 
 ## 🔎 Overview framework
 
