@@ -73,7 +73,7 @@ python run_SPDInv_ELITE.py --input xxx --source [source prompt] --target [target
 @article{li2024source,
   title={Source Prompt Disentangled Inversion for Boosting Image Editability with Diffusion Models},
   author={Li, Ruibin and Li, Ruihuang and Guo, Song and Zhang, Lei},
-  journal={arXiv preprint arXiv:2403.11105},
+  booktitle={European Conference on Computer Vision},
   year={2024}
 }
 ```
